@@ -1,4 +1,3 @@
-!node_modules/apparch-core/*
 node_modules/**/*
 .expo/*
 npm-debug.*
