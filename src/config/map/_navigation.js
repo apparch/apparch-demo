@@ -1,12 +1,8 @@
-import { createDrawerNavigator } from "react-navigation";
-import HomeScreen from "./_screens/HomeScreen";
-import AboutScreen from "./_screens/AboutScreen";
-import ContactUsScreen from "./_screens/ContactUsScreen";
+import { createDrawerNavigator } from 'react-navigation'
+import HomeScreen from './_screens/HomeScreen'
 
 const Screens = {
-	Home: HomeScreen,
-	About: AboutScreen,
-	ContactUs: ContactUsScreen,
-};
+  Home: HomeScreen
+}
 
-export default createDrawerNavigator(Screens);
+export default createDrawerNavigator(Screens)
