@@ -1,8 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { createDrawerNavigator, createAppContainer } from 'react-navigation';
-import HomeScreen from './src/screens/HomeScreen';
-import ArticlesScreen from './src/screens/ArticlesScreen';
+import { createAppContainer } from 'react-navigation';
+
+// App Navigator
+//import AppDrawerNavigator from './src/navigation/navigation';
+
+// Dynamic app navigator
+import AppDrawerNavigator from './src/config/map/_navigation';
+
 
 
 export default class App extends React.Component {
@@ -12,11 +17,6 @@ export default class App extends React.Component {
     );
   }
 }
-
-const AppDrawerNavigator = createDrawerNavigator({
-  Home: HomeScreen,
-  Articles: ArticlesScreen
-})
 
 const AppContainer = createAppContainer(AppDrawerNavigator);
 

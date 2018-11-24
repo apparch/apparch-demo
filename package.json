@@ -6,7 +6,10 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "config-sync": "node ./node_modules/apparch-core/console/config-sync.js",
+    "config-map": "node ./node_modules/apparch-core/console/config-map.js",
+    "build": "node ./node_modules/apparch-core/console/build.js"
   },
   "dependencies": {
     "expo": "^31.0.2",
