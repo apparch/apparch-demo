@@ -6,7 +6,7 @@ import { createAppContainer } from 'react-navigation';
 //import AppDrawerNavigator from './src/navigation/navigation';
 
 // Dynamic app navigator
-import AppDrawerNavigator from './src/config/map/_navigation';
+import AppDrawerNavigator from './src/_build/_navigation';
 
 
 

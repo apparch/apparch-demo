@@ -9,7 +9,7 @@
     "eject": "expo eject",
     "config-sync": "node ./node_modules/apparch-core/console/config-sync.js",
     "config-map": "node ./node_modules/apparch-core/console/config-map.js",
-    "build": "node ./node_modules/apparch-core/console/build.js",
+    "build": "node ./node_modules/apparch-core/console/build.js && prettier 'src/_build/**/*.js' --write",
     "prettier": "prettier 'src/**/*.js' --write"
   },
   "dependencies": {
